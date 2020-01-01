@@ -7,7 +7,6 @@ import './screens/category_meals_screen.dart';
 import './screens/filters_screen.dart';
 import './screens/categories_screen.dart';
 import './models/meal.dart';
-
 void main() {
   runApp(
     new MaterialApp(
@@ -20,7 +19,6 @@ class MyApp extends StatefulWidget {
   @override
   _MyAppState createState() => _MyAppState();
 }
-
 class _MyAppState extends State<MyApp> {
   Map<String, bool> _filters = {
     'gluten': false,
